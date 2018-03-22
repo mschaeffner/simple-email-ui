@@ -6,7 +6,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: #DDD;
+  background: #EEE;
 `
 
 const Header = styled.div`
@@ -33,7 +33,7 @@ const Text = styled.textarea`
   box-sizing: border-box;
   font-family: Verdana;
   font-size: 24px;
-
+  border: 2px solid #CCC;
 `
 
 const Line = styled.div`
@@ -57,6 +57,7 @@ const Name = styled.span`
   border-radius: 20px;
   padding: 5px 15px;
   display: inline-block;
+  border: 2px solid #CCC;
 `
 
 
@@ -71,7 +72,7 @@ export default ({from, to, subject, text}) =>
         </LineLabel>
         <LineValue>
           <Name>
-            {to}
+            {from}
           </Name>
         </LineValue>
       </Line>
