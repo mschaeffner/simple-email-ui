@@ -26,7 +26,7 @@ const Text = styled.textarea`
   background: white;
   height: 100%;
   width: 100%;
-  outline; none;
+  outline: none;
   border-radius: 5px;
   padding: 10px;
   line-height: 1.2em;
@@ -76,7 +76,7 @@ export default ({from, to, subject, text}) =>
           </Name>
         </LineValue>
       </Line>
-        
+
       <Line>
         <LineLabel>
           An:
@@ -89,7 +89,7 @@ export default ({from, to, subject, text}) =>
       </Line>
 
     </Header>
-    
+
     <Content>
       <Text>
         dvdvsdvds vds v ds vds v ds vdsv
