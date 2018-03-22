@@ -61,7 +61,7 @@ const Name = styled.span`
 `
 
 
-export default ({from, to, subject, text}) =>
+export default ({from, to, text}) =>
   <Container>
 
     <Header>
@@ -92,13 +92,7 @@ export default ({from, to, subject, text}) =>
 
     <Content>
       <Text>
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
-        dvdvsdvds vds v ds vds v ds vdsv
+        {text}
       </Text>
     </Content>
 
